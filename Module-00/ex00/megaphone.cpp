@@ -12,9 +12,9 @@ int		main(int ac, char **av)
 	{
 		for (int i = 1; i < ac; i++)
 		{
-			string str(av[i]);
-			for (size_t j = 0; j < str.length(); j++)
-				cout << (char)toupper(str[j]);
+			string msg(av[i]);
+			for (size_t j = 0; j < msg.length(); j++)
+				cout << (char)toupper(msg[j]);
 		}
 		cout << endl;
 	}
